@@ -1,9 +1,10 @@
 import './App.css';
+import SideBar from './SideBar';
 
 function App() {
   return (
-    <div className="text-center text-green-600">
-        <h1>hello taliwind</h1>
+    <div className="flex">
+        <SideBar/>
     </div>
   );
 }
